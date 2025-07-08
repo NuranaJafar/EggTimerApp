@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumurta Zamanlayıcı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🍳 Yumurta Zamanlayıcı</h1>
+        <img src="images/egg.png" alt="Egg Timer" class="egg-image">
+
+        <div class="buttons">
+            <button onclick="startTimer(4)">🥚 Rafadan (4 dk)</button>
+            <button onclick="startTimer(7)">🍳 Kayısı (7 dk)</button>
+            <button onclick="startTimer(10)">🥥 Tam Pişmiş (10 dk)</button>
+        </div>
+
+        <div class="timer-display" id="timerDisplay">00:00</div>
+
+        <button class="reset-btn" onclick="resetTimer()">🔄 Sıfırla</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
